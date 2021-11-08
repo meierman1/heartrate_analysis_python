@@ -468,7 +468,7 @@ def interpolate_peaks(data, peaks, sample_rate, desired_sample_rate=1000.0, work
 
     >>> import heartpy as hp
     >>> data, _ = hp.load_exampledata(0)
-    >>> wd, m = process(data, 100.0)
+    >>> wd, m = hp.process(data, 100.0)
     >>> wd['peaklist'][0:5]
     array([ 63, 165, 264, 360, 460], dtype=int64)
 
